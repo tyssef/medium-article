@@ -1,0 +1,48 @@
+.banniere {
+  background-image: url(https://scriiipt.com/wp-content/uploads/2018/08/RQ-G.jpg);
+  width: 3500px;
+  margin: 0 auto;
+  height: 1500px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  background-color: aliceblue;
+  color: black;
+  font-size: 20px;
+  width: 3000px;
+  height: 600px;
+  margin: 50 auto;
+  text-align: left;
+  border-radius: 20px;
+}
+
+.liens {
+  background-color: aliceblue;
+  color: black;
+  font-size: 20px;
+  width: 1000px;
+  margin: 50 auto;
+  border-radius: 20px;
+  height: 300px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
